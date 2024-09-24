@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html class="home" lang="en">
+    <head>
+        <title> Portfolio </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="src/output.css" rel="stylesheet" >
+        <!-- Don't forget to run: npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
+    </head>
+    <body class="bg-gradient-to-r bg-black text-white">
+      <!--Header-->
+      <header class="bg-gradient-to-r bg-black w-full top-0 fixed z-10">
+        <div class="p-5 flex flex-col">
+            <a class="text-3xl font-bold fixed top-0 mt-3" href="#home">Portfolio</a>
+            <span id="menu" class="flex justify-end items-center mt-4 mb-4 cursor-pointer md:hidden">
+              <i class="fa-solid fa-bars fa-xl text-gray-400 hover:text-white"></i>
+            </span>
+            <nav class="text-gray-400 text-right md:text-center md:flex md:justify-end md:gap-4 hidden">
+                <div class="md:w-16">
+                  <a class="hover:text-gray-200 hover:font-bold" href="#home">Home</a>
+                </div>
+                <div class=" md:w-20">
+                  <a class="hover:text-gray-200 hover:font-bold" href="#project">Projects</a>
+                </div>
+                <div class=" md:w-16">
+                  <a class="hover:text-gray-200 hover:font-bold" href="#about">About</a>
+                </div>
+            </nav>
+        </div>
+      </header>
+
+      <main id="home" class="flex flex-col">
+
+        <!-- Meet out team Section -->
+        <section class="w-full mx-auto flex items-center justify-center mt-40 h-80 mb-36">
+          <div class="text-6xl text-center flex flex-col sm:flex-row md:flex-col md:text-8xl lg:flex-row">
+            <div class="flex">
+              <div class="hover-scale">"</div>
+              <div class="hover-scale">B</div>
+              <div class="hover-scale">e</div>
+              <div class="hover-scale">a</div>
+              <div class="hover-scale">u</div>
+              <div class="hover-scale">t</div>
+              <div class="hover-scale">y</div>
+              <div class="hover-scale">&nbsp;</div>
+              <div class="hover-scale">i</div>
+              <div class="hover-scale">s</div>
+              <div class="hover-scale">&nbsp;</div>
+            </div>
+            <div class="flex">
+              <div class="hover-scale">S</div>
+              <div class="hover-scale">i</div>
+              <div class="hover-scale">m</div>
+              <div class="hover-scale">p</div>
+              <div class="hover-scale">l</div>
+              <div class="hover-scale">i</div>
+              <div class="hover-scale">c</div>
+              <div class="hover-scale">i</div>
+              <div class="hover-scale">t</div>
+              <div class="hover-scale">y</div>
+              <div class="hover-scale">"</div>
+            </div>
+          </div>          
+        </section>
+
+        <!-- Welcome Section -->
+        <section class="w-full -mt-6">
+          <div class="flex flex-col items-center justify-center">
+            <div class="text-2xl mb-1">
+              Welcome
+            </div>
+            <div class="text-center">
+              Hi! my name is Vince an aspiring Web Developer.
+            </div>
+          </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="w-full pt-36 md:pt-24" id="project">
+          <div>
+            <div class="text-2xl text-center flex flex-col items-center mb-6 md:text-3xl">
+              Featured Projects
+              <div class="w-36 md:w-48 border border-gray-400 mt-2"></div>
+              <div class="w-24 md:w-36 border border-gray-400 mt-2"></div>
+              <div class="w-16 md:w-24 border border-gray-400 mt-2"></div>
+            </div>
+            <div class="flex flex-wrap justify-center gap-5">
+              <a href="https://vince-pino.github.io/fem-faq-accordion/">
+                <div class="card">
+                  <img class="object-cover h-4/5" src="src/img/projects/faqs_page.PNG" alt="FAQs">
+                  <div class="bg-white h-1/5">
+                    <p class="text-black text-center p-3 font-bold text-1xl">
+                      Frequently Ask Questions
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://vince-pino.github.io/fem-product-list-with-cart/">
+                <div class="card">
+                  <img class="object-cover h-4/5" src="src/img/projects/product_list_cart.PNG" alt="Odin Recipes">
+                  <div class="bg-white h-1/5">
+                    <p class="text-black text-center p-3 font-bold text-1xl">
+                      Product List with Cart
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://vince-pino.github.io/fem-interactive-rating-component/">
+                <div class="card">
+                  <img class="object-cover h-4/5" src="src/img/projects/rating_component.PNG" alt="Rating Component">
+                  <div class="bg-white h-1/5">
+                    <p class="text-black text-center p-3 font-bold text-1xl">
+                      Rating Component
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://vince-pino.github.io/fem-newsletter-sign-up-form-with-success-message/">
+                <div class="card">
+                  <img class="object-cover h-4/5" src="src/img/projects/signup_form.PNG" alt="Sign up Form">
+                  <div class="bg-white h-1/5">
+                    <p class="text-black text-center p-3 font-bold text-1xl">
+                      Sign up Form
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://vince-pino.github.io/fem-intro-component-with-sign-up-form/">
+                <div class="card">
+                  <img class="object-cover h-4/5" src="src/img/projects/signup_form_1.PNG" alt="Sign up Form">
+                  <div class="bg-white h-1/5">
+                    <p class="text-black text-center p-3 font-bold text-1xl">
+                      Sign up Form
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://vince-pino.github.io/fem-social-links-profile/">
+                <div class="card">
+                  <img class="object-cover h-4/5" src="src/img/projects/social_link_profile.PNG" alt="Profile">
+                  <div class="bg-white h-1/5">
+                    <p class="text-black text-center p-3 font-bold text-1xl">
+                      Social Links Profile
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="https://vince-pino.github.io/rock-paper-scissors/"></a>
+                <div class="card">
+                  <img class="object-cover h-4/5" src="src/img/projects/rock_paper_scissors.PNG" alt="Profile">
+                  <div class="bg-white h-1/5">
+                    <p class="text-black text-center p-3 font-bold text-1xl">
+                      Rock Paper Scissors
+                    </p>
+                  </div>
+                </div>
+              </a>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- About Me -->
+        <section class="mb-36 pt-36 md:pt-24" id="about">
+          <div class="flex flex-col items-center">
+            <div class="text-2xl flex flex-col items-center md:text-3xl mb-10">
+              About Me
+              <div class="w-36 md:w-48 border border-gray-400 mt-2"></div>
+              <div class="w-24 md:w-36 border border-gray-400 mt-2"></div>
+              <div class="w-16 md:w-24 border border-gray-400 mt-2"></div>
+            </div>
+            <div class="flex flex-col items-center">
+              <div class="bg-white w-56 h-56 flex justify-center border-white border-2 items center rounded-full mb-10">
+                <img class="rounded-full object-cover" src="src/img/profile.JPG" alt="profile">
+              </div>
+              <div class="flex items-center gap-4 mb-10">
+                <div class="w-11 h-11 cursor-pointer">
+                  <div class="bg-white rounded-full w-9 h-9 p-1 transition duration-300 ease-out hover:scale-125">
+                    <a href="https://github.com/vince-pino">
+                      <img src="src/icons/github.png" alt="Github">
+                    </a>
+                  </div>
+                </div>
+                <div class="w-11 h-11 cursor-pointer">
+                  <div class="bg-white rounded-full w-9 h-9 p-1 transition duration-300 ease-out hover:scale-125">
+                    <a href="https://www.linkedin.com/in/vince-pino-5592bb1b7/">
+                      <img src="src/icons/linkedin.png" alt="Linkedin">
+                    </a>
+                  </div>
+                </div>
+                <div class="w-11 h-11 cursor-pointer">
+                  <div class="bg-white rounded-full w-9 h-9 p-1 transition duration-300 ease-out hover:scale-125">
+                    <a href="#">
+                      <img src="src/icons/facebook.png" alt="Facebook">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center px-5">
+                I am an aspiring Web Developer. I love to build and design. I am currently learning Web Development.
+            </div>
+            </div>
+            
+          </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t py-8 text-center">
+          <div>
+            <div>
+              <div class="flex gap-2 justify-center items-center mb-4">
+                <a class="hover:text-blue-500" href="#home">Home</a>
+                <span class="text-2xl">/</span>
+                <a class="hover:text-blue-500" href="#project">Projects</a>
+                <span class="text-2xl">/</span>
+                <a class="hover:text-blue-500" href="#about">About</a>
+                <span class="text-2xl">/</span>
+              </div>
+              <div class="flex gap-9 justify-center items-center mb-4">
+                <a class="bg-white rounded-full hover:bg-black flex items-center justify-center cursor-pointer" style="height: 29px; width: 28px;" href="https://github.com/vince-pino">
+                  <i class="fa-brands fa-github fa-2xl text-black hover:text-white"></i>
+                </a>
+                <a class="hover:bg-white w-6 h-6 cursor-pointer" href="https://www.linkedin.com/in/vince-pino-5592bb1b7/">
+                  <i class="fa-brands fa-linkedin fa-2xl hover:text-custom-linkedin-blue"></i>
+                </a>
+                <a class="rounded-full hover:bg-white flex items-center justify-center cursor-pointer" style="height: 31px; width: 29px;" href="#">
+                  <i class="fa-brands fa-facebook fa-2xl hover:text-custom-facebook-blue"></i>
+                </a>
+              </div>
+              <div>
+                &copy; 2024 <span class="text-blue-400">Vince Cedie Pino</span>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+      </main>
+
+      <script src="https://kit.fontawesome.com/85f3ffcdf5.js" crossorigin="anonymous"></script>
+      <script src="js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover-scale {
+  @apply transform transition-transform duration-100 hover:scale-125;
+}
+
+.card {
+  @apply w-72 h-96 rounded-xl overflow-hidden transition duration-300 ease-out hover:scale-105;
+}
